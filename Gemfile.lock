@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/spree/spree_auth_devise.git
+  remote: https://github.com/spree/spree_auth_devise.git
   revision: 5a3857f8745736de6a7d4030c4a2c0493a3eb574
   branch: 2-4-stable
   specs:
@@ -11,15 +11,17 @@ GIT
       spree_core (~> 2.4.0)
 
 GIT
-  remote: git://github.com/spree/spree_gateway.git
+  remote: https://github.com/spree/spree_gateway.git
   revision: 8b467972524fea67b3dea5af71cde92ebb32ca8e
   branch: 2-4-stable
   specs:
     spree_gateway (2.4.1)
       spree_core (~> 2.4.0)
 
-PATH
-  remote: ../spree-taxjar
+GIT
+  remote: https://github.com/vinsol/spree-taxjar.git
+  revision: e05cc19d9655cf9933bf8e75842668cc2cb68d45
+  branch: 2-4-stable
   specs:
     spree_taxjar (3.2.0)
       spree_core (= 2.4.10)

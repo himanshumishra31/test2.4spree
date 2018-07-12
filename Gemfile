@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -31,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spree', '2.4.10'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
-gem 'spree_taxjar', path: '../spree-taxjar'
+gem 'spree_taxjar', github: 'vinsol/spree-taxjar', branch: '2-4-stable'
 
 
 # Use Capistrano for deployment
