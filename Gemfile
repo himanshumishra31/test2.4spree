@@ -35,7 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spree', '2.4.10'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
-gem 'spree_taxjar', github: 'vinsol/spree-taxjar', branch: '2-4-stable'
+# gem 'spree_taxjar', github: 'vinsol/spree-taxjar', branch: '2-4-stable'
+gem 'spree_taxjar', path: 'vendor/spree-taxjar-2-4-stable'
 
 
 # Use Capistrano for deployment

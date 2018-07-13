@@ -18,10 +18,8 @@ GIT
     spree_gateway (2.4.1)
       spree_core (~> 2.4.0)
 
-GIT
-  remote: https://github.com/vinsol/spree-taxjar.git
-  revision: e05cc19d9655cf9933bf8e75842668cc2cb68d45
-  branch: 2-4-stable
+PATH
+  remote: vendor/spree-taxjar-2-4-stable
   specs:
     spree_taxjar (3.2.0)
       spree_core (= 2.4.10)
